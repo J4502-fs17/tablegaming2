@@ -1,0 +1,24 @@
+html{ font-size: 100%;
+}
+
+
+
+h1,h2,h3,h4,p,li {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+p{
+     color: #292f30}
+header{
+  size: 1.5em;}
+#nav{
+  list-style-type: none;
+  }
+#nav li{
+  color: #292f30
+  text-decoration: none;}
+
+
+img{
+    border-style: none;}
+
+footer{
+background-image: }
