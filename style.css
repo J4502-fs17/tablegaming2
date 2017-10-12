@@ -22,18 +22,20 @@ header{
   text-decoration: none;}
 #nav a:active{
   color: #;
-  text-decoration: none;
 }
 #container{
   border: 12px;
-  border-radius: 10px;
+  border-radius: 70px;
   margin-top: 15px;
   margin-bottom: 15px;
   width:70%;
   background-color:#f7faf1;
+}
 
 img{
-    border-style: none;}
+    text-align: center;
+    border-style: none;
+  }
 
 footer{
 background-image: }
