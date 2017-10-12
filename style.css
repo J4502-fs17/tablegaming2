@@ -1,6 +1,8 @@
 html{ font-size: 100%;
 }
-
+body{
+  background-color:#5ac3bf;
+}
 
 a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
@@ -15,7 +17,20 @@ header{
 #nav li{
   color: #292f30;
   text-decoration: none;}
-
+#nav a:visited, a:link{
+  color: #292f30;
+  text-decoration: none;}
+#nav a:active{
+  color: #;
+  text-decoration: none;
+}
+#container{
+  border: 12px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width:70%;
+  background-color:#f7faf1;
 
 img{
     border-style: none;}
