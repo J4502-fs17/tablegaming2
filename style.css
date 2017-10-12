@@ -15,25 +15,29 @@ header{
   list-style-type: none;
   }
 #nav li{
+  font-size: 150%;
   color: #292f30;
   text-decoration: none;}
 #nav a:visited, a:link{
   color: #292f30;
   text-decoration: none;}
 #nav a:active{
-  color: #;
+  color: #292f30;
 }
 #container{
   border: 12px;
   border-radius: 70px;
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-right: auto;
   margin-bottom: 15px;
-  width:70%;
+  margin-left: auto;
+  width:90%;
   background-color:#f7faf1;
 }
 
 img{
-    text-align: center;
+    display: block;
+    margin: auto;
     border-style: none;
   }
 
