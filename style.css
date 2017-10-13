@@ -1,4 +1,7 @@
-html{ font-size: 16;
+html{
+  height: 100%;
+  width: 100%;
+  overflow:overlay;
 }
 body{
   background-image: url("images/background.png");
@@ -12,6 +15,8 @@ a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
 p{
+     font-size: 200%;
+     word-wrap: normal;
      margin-left: 1em;
      margin-right: 1em;
      margin-top: 0;
@@ -21,13 +26,12 @@ p{
      color: #292f30;
      line height: 30.4px;
      padding-left: 5% }
-header{
-  size: 150%;}
+
 #nav{
   list-style-type: none;
   }
 #nav li{
-  font-size: 150%;
+  font-size: 200%;
   color: #292f30;
   text-decoration: none;}
 #nav a:visited, a:link{
@@ -35,6 +39,7 @@ header{
   text-decoration: none;}
 #nav a:active{
   color: #292f30;
+  font-weight: bold;
 }
 
 .logo img{
@@ -46,8 +51,12 @@ header{
 
 
 .content {
+    position: absolute;
+    word-wrap: normal;
     padding: 30px;
     margin-bottom: -100px;
+    margin-right: 1.2em;
+    margin-left: 1.2em;
     border-style: none;
     border-width: 1px;
     background: #f7faf1;
@@ -55,9 +64,11 @@ header{
     border-radius: 30px;}
 
 .fixpixel img{
+  position: relative;
   border-style: none;
-  padding: 0;
-  margin: none;
+  padding-top: 100;
+  margin-top: 100;
+  bottom: 0;
   width:100%;
-  height: 100%;
+  z-index: -1;
      }
