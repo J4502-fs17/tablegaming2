@@ -5,3 +5,11 @@ h3{
 h1{
   text-align: center;
 }
+h2{  text-align: center;
+
+}
+.gamesimg{
+  display: block;
+    margin: auto;
+    width: 40%;
+}
