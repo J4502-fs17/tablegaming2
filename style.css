@@ -99,3 +99,8 @@ p{
   width:100%;
   z-index: -1;
      }
+
+.sidebyside {
+  vertical-align: bottom;
+  display:inline;
+}
