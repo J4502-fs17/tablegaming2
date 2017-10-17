@@ -4,6 +4,11 @@ html{
   overflow:overlay;
 }
 
+header{
+  size: 15%;
+  background-color: #5ac3bf;
+}
+
 body{
   /*background-image: url("images/background.png");
   background-repeat: repeat-x;
@@ -19,11 +24,6 @@ h1,h2,h3,h4,p,li {
 
 p{
      color: #292f30}
-
-header{
-  size: 15%;
-  background-color: #5ac3bf;
-}
 
 /*commenting out because it's unnecessary for now
 #heading{
@@ -54,7 +54,6 @@ header{
     padding: 6%;
     border-style: none;
   }
-
 
 .content {
     position: absolute;
