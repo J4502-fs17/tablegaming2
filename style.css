@@ -65,7 +65,11 @@ p{
   color: #292f30;
   font-weight: bold;
 }
-
+.backtotop{
+  height: 110px;
+  width: 110px;
+  margin-left: 85%;
+}
 
 .logo img{
     display: block;
