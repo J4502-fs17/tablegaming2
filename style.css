@@ -24,14 +24,14 @@ h1,h2,h3,h4,p,li {
 h1 {
   font-style: oblique;
   font-weight: bolder;
-  color: 228587;
+  color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 32pt;
 }
 
 h2 {
   font-style: oblique;
   font-weight: bold;
-  color: 228587;
+  color: #339999;
   font-size: 20pt;
 }
 
