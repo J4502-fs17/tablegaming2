@@ -49,7 +49,8 @@ p{
 
 .logo img{
     display: block;
-    margin: 0 auto;
+    position: relative;
+    margin-left: -50%;
     padding: 6%;
     border-style: none;
   }
