@@ -19,9 +19,11 @@ body{
 
 a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
 
 h1 {
+  text-align: center;
   font-weight: bolder;
   color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 32pt;
@@ -34,7 +36,7 @@ h2 {
 }
 
 h3{
-      text-align: right;
+    text-align: right;
   }
 
 p{
@@ -66,10 +68,19 @@ p{
   font-weight: bold;
 }
 
+#link a:visited, a:link{
+  color: #339999
+}
+
+#link a:active, a:link{
+  color: #339999
+}
 
 .logo img{
+    float: left;
     display: block;
     position: absolute;
+    width: 250px;
     left: 336px;
     margin: 0;
     padding: 3%;
@@ -81,7 +92,7 @@ p{
     word-wrap: normal;
     padding: 30px;
     margin-top: 20px;
-    margin-bottom: -100px;
+    margin-bottom: 50px;
     margin-right: 1.2em;
     margin-left: 1.2em;
     border-style: none;
@@ -100,6 +111,8 @@ p{
      }
 
 .sidebyside {
-  vertical-align: bottom;
-  display:inline;
+  margin: 20px;
+  padding: auto;
+  display: inline;
+  vertical-align: text-top;
 }
