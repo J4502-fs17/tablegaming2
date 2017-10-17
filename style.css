@@ -5,7 +5,6 @@ html{
 }
 
 header{
-  size: 15%;
   background-color: #5ac3bf;
 }
 
@@ -25,13 +24,12 @@ h1,h2,h3,h4,p,li {
 p{
      color: #292f30}
 
-/*commenting out because it's unnecessary for now
+
 #heading{
   width:100%;
   height: 20%;
-  background-color:#66cccc;
   margin: 0;
-  }*/
+  }
 
 #nav{
   list-style-type: none;
