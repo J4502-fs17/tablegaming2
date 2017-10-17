@@ -50,7 +50,8 @@ p{
 .logo img{
     display: block;
     position: relative;
-    margin-left: -50%;
+    left: 50%;
+    margin: 0;
     padding: 6%;
     border-style: none;
   }
