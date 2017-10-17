@@ -35,6 +35,10 @@ h2 {
   font-size: 20pt;
 }
 
+h3{
+      text-align: right;
+  }
+
 p{
   font-size: 16pt;
   color: #292f30;
@@ -97,7 +101,3 @@ p{
   width:100%;
   z-index: -1;
      }
-  h3{
-   			text-align: right;
-
-   	}
