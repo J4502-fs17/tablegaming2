@@ -49,8 +49,8 @@ p{
 
 .logo img{
     display: block;
-    position: relative;
-    left: 50%;
+    position: absolute;
+    left: 30%;
     margin: 0;
     padding: 6%;
     border-style: none;
