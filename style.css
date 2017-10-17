@@ -3,13 +3,14 @@ html{
   width: 100%;
   overflow:overlay;
 }
+
 body{
   /*background-image: url("images/background.png");
-  commenting this out because we don't have the right background and mobile is simplified*/
-  background-color: #f2f0dd;
   background-repeat: repeat-x;
   background-size: 1920px 4812px;
   margin: 0;
+  commenting this out because we dont have correct bg image and mobile is simpllified */
+  background-color: #f2f0dd;
 }
 
 a{text-decoration: none;}
