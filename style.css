@@ -3,29 +3,53 @@ html{
   width: 100%;
   overflow:overlay;
 }
+
+header{
+  background-color: #5ac3bf;
+}
+
 body{
-  background-image: url("images/background.png");
-  background-color: #f2f0dd;
+  /*background-image: url("images/background.png");
   background-repeat: repeat-x;
   background-size: 1920px 4812px;
   margin: 0;
+  commenting this out because we dont have correct bg image and mobile is simplified */
+  background-color: #f2f0dd;
 }
 
 a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+
+h1 {
+  font-weight: bolder;
+  color: #339999; /* can't use color 228587 because it isn't web safe*/
+  font-size: 32pt;
+}
+
+h2 {
+  font-weight: bold;
+  color: #339999;
+  font-size: 20pt;
+}
+
+h3{
+      text-align: right;
+  }
+
 p{
-     font-size: 200%;
-     word-wrap: normal;
-     margin-left: 1em;
-     margin-right: 1em;
-     margin-top: 0;
-     margin-bottom: 0;
-    -webkit-margin-start: 0px
-    -webkit-margin-end: 0px
-     color: #292f30;
-     line height: 30.4px;
-     padding-left: 5% }
+  font-size: 16pt;
+  color: #292f30;
+  line-height: 30.4px;
+  }
+
+
+#heading{
+  width:100%;
+  height: 320px;
+  margin: 0;
+  padding: 0;
+  }
 
 #nav{
   list-style-type: none;
@@ -42,18 +66,21 @@ p{
   font-weight: bold;
 }
 
+
 .logo img{
     display: block;
-    margin: auto;
-    padding: 6%;
+    position: absolute;
+    left: 336px;
+    margin: 0;
+    padding: 3%;
     border-style: none;
   }
 
-
 .content {
-    position: absolute;
+    position: relative;
     word-wrap: normal;
     padding: 30px;
+    margin-top: 20px;
     margin-bottom: -100px;
     margin-right: 1.2em;
     margin-left: 1.2em;
@@ -66,13 +93,9 @@ p{
 .fixpixel img{
   position: relative;
   border-style: none;
-  padding-top: 100;
-  margin-top: 100;
+  padding-top: 100px;
+  margin-top: 0;
   bottom: 0;
   width:100%;
   z-index: -1;
      }
-  h3{
-   			text-align: right;
-
-   	}
