@@ -14,6 +14,11 @@ body{
 a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4 {
+  font-weight:bolder;
+  color: #228587;
+  font-size: 32;
+}
 p{
      font-size: 200%;
      word-wrap: normal;
@@ -25,7 +30,8 @@ p{
     -webkit-margin-end: 0px
      color: #292f30;
      line height: 30.4px;
-     padding-left: 5% }
+     padding-left: 5%;
+   }
 
 #nav{
   list-style-type: none;
