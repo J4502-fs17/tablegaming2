@@ -7,10 +7,20 @@ body{
 a{text-decoration: none;}
 h1,h2,h3,h4,p,li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+
 p{
      color: #292f30}
+
 header{
   size: 150%;}
+
+#heading{
+  width:100%;
+  height: 75px;
+  background-color:#66cccc;
+  margin: auto;
+  }
+
 #nav{
   list-style-type: none;
   }
