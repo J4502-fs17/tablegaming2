@@ -10,9 +10,7 @@ body{
   background-size: 1920px 4812px;
   margin: 0;
   commenting this out because we dont have correct bg image and mobile is simplified */
-  /*background-color: #f2f0dd;
-  commenting out this color to make background blue - use #f2f0dd for containers*/
-  background-color: #5ac3bf;
+  background-color: #f2f0dd;
 }
 
 a{text-decoration: none;}
@@ -23,7 +21,9 @@ p{
      color: #292f30}
 
 header{
-  size: 150%;}
+  size: 150%;
+  background-color: #5ac3bf;
+}
 
 /*commenting out because it's unnecessary for now
 #heading{
