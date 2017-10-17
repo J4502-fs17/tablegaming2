@@ -79,7 +79,7 @@ p{
   }
 
 .content {
-    position: absolute;
+    position: relative;
     word-wrap: normal;
     padding: 30px;
     margin-top: 20px;
