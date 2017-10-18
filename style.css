@@ -139,7 +139,7 @@ p{
 }
 
 .button a:link, a:visited{
-  color:white;
+  color:#339999;
 }
 .video{
   display: block;
@@ -150,5 +150,12 @@ p{
 }
 
 .backtotop img {
-  width: 50px;
+  padding-left: 80%;
+  height: 110px;
+}
+
+#blogpages p{
+  text-align: right;
+  padding-right: 8%;
+  margin-top: 2% ;
 }
