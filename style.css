@@ -55,6 +55,9 @@ p{
 
 #nav{
   list-style-type: none;
+  max-width: 200px;
+  position: absolute;
+  margin: 25px 0 0 15px;
   }
 #nav li{
   font-size: 200%;
@@ -77,12 +80,11 @@ p{
 }
 
 .logo img{
-    float: left;
+    float: center;
     display: block;
-    position: absolute;
     width: 250px;
-    left: 336px;
-    margin: 0;
+    /*left: 336px;*/
+    margin: auto;
     padding: 3%;
     border-style: none;
   }
@@ -111,8 +113,12 @@ p{
      }
 
 .sidebyside {
-  margin: 20px;
+  margin: auto;
   padding: auto;
-  display: inline;
-  vertical-align: text-top;
+  text-align: center;
+  word-spacing: 150px;
+}
+
+.center{
+  text-align: center;
 }
