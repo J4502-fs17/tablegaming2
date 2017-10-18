@@ -124,10 +124,9 @@ p{
   text-align: center;
 }
 
-<<<<<<< HEAD
 .share img{
   width: 150px;
-=======
+}
 .button{
   background-color: #339999;
   color:white;
@@ -148,5 +147,8 @@ p{
 }
 .gamesimg{
   margin: 20px;
->>>>>>> origin/master
+}
+
+.backtotop img {
+  width: 50px;
 }
