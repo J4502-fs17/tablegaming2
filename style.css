@@ -70,7 +70,6 @@ p{
   color: #292f30;
   font-weight: bold;
 }
-<<<<<<< Updated upstream
 
 #link a:visited, a:link{
   color: #339999
@@ -78,12 +77,6 @@ p{
 
 #link a:active, a:link{
   color: #339999
-=======
-.backtotop{
-  height: 110px;
-  width: 110px;
-  margin-left: 85%;
->>>>>>> Stashed changes
 }
 
 .logo img{
@@ -101,11 +94,7 @@ p{
     word-wrap: normal;
     padding: 30px;
     margin-top: 20px;
-<<<<<<< Updated upstream
     margin-bottom: 50px;
-=======
-    margin-bottom: 0px;
->>>>>>> Stashed changes
     margin-right: 1.2em;
     margin-left: 1.2em;
     border-style: none;
@@ -117,12 +106,8 @@ p{
 .fixpixel img{
   position: relative;
   border-style: none;
-<<<<<<< Updated upstream
   margin-top: 0;
   margin-bottom: -15px;
-=======
-  margin-top: 50px;
->>>>>>> Stashed changes
   bottom: 0;
   width:100%;
   z-index: -1;
@@ -137,4 +122,25 @@ p{
 
 .center{
   text-align: center;
+}
+
+.button{
+  background-color: #339999;
+  color:white;
+  margin:50px;
+  border-radius:8px;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.button a:link, a:visited{
+  color:white;
+}
+.video{
+  display: block;
+    margin: 20px;
+}
+.gamesimg{
+  margin: 20px;
 }
