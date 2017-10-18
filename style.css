@@ -107,6 +107,7 @@ p{
   position: relative;
   border-style: none;
   margin-top: 0;
+  margin-bottom: -15px;
   bottom: 0;
   width:100%;
   z-index: -1;
