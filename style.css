@@ -63,7 +63,7 @@ p{
   font-size: 200%;
   color: #292f30;
   text-decoration: none;}
-#nav a:visited, a:link{
+#nav a:visited, #nav a:link{
   color: #292f30;
   text-decoration: none;}
 #nav a:active{
@@ -71,11 +71,11 @@ p{
   font-weight: bold;
 }
 
-#link a:visited, a:link{
+#link a:visited, #link a:link{
   color: #339999
 }
 
-#link a:active, a:link{
+#link a:active, #link a:link{
   color: #339999
 }
 
@@ -144,7 +144,7 @@ p{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-.button a{
+.button a:link, .button a:visited {
   color:white;
 }
 .video{
