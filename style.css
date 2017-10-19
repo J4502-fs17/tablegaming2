@@ -40,7 +40,7 @@ h3{
   }
 
 p{
-  font-size: 16pt;
+  font-size: 160%;
   color: #292f30;
   line-height: 30.4px;
   }
@@ -122,4 +122,40 @@ p{
 
 .center{
   text-align: center;
+}
+
+.share img{
+  width: 150px;
+}
+.button{
+  background-color: #339999;
+  color:white;
+  margin:20px;
+  border-radius:10px;
+  padding: 15px 32px;
+
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.button a:link, a:visited{
+  color:white;
+}
+.video{
+  display: block;
+    margin: 20px;
+}
+.gamesimg{
+  margin: 20px;
+}
+
+.backtotop img {
+  padding-left: 80%;
+  height: 110px;
+}
+
+#blogpages p{
+  text-align: right;
+  padding-right: 8%;
+  margin-top: 2% ;
 }
