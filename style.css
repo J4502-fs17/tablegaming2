@@ -160,8 +160,10 @@ p{
   height: 110px;
 }
 
-#blogpages p{
-  text-align: right;
+#blogpages
+img{ width: 3%;
+}
+p{  text-align: right;
   padding-right: 8%;
   margin-top: 2% ;
 }
