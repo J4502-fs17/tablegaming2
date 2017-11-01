@@ -79,6 +79,10 @@ p{
 #link a:active, #link a:link{
   color: #339999
 }
+ul{
+  list-style: none;
+}
+
 
 .logo img{
     float: center;
