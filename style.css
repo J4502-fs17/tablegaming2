@@ -173,3 +173,40 @@ p{  text-align: right;
   padding-right: 8%;
   margin-top: 2% ;
 }
+
+/*community page below*/
+.social {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a b c"
+  "d e f";
+}
+
+
+.facebook img{
+  width: 2rem;
+  grid-area: a;
+}
+ .instagram img{
+  width: 2rem;
+  grid-area: b;
+   }
+ .twitter img{
+   width: 2rem;
+   grid-area: c;
+   }
+.tabletopia img{
+    width: 2rem;
+    grid-area: f;
+  }
+.bgg img{
+    width: 2rem;
+    grid-area: e;
+  }
+.kickstarter img{
+  width: 2rem;
+  grid-area: d;
+  }
