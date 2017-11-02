@@ -82,7 +82,9 @@ p{
 ul{
   list-style: none;
 }
-
+.shopimages img{
+  float: center;
+}
 
 .logo img{
     float: center;
