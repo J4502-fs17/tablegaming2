@@ -40,7 +40,7 @@ h3{
   }
 
 p{
-  text-align: justify;
+  text-align: left;
   font-size: 1em;
   color: #292f30;
   line-height: 1.25em;
@@ -127,7 +127,7 @@ ul{
   z-index: -1;
      }
 
-.sidebyside {
+.sidebyside {  /*a classmate suggested we make these links look like the buttons on the games page to distinguish them as links*/
   margin: auto;
   padding: auto;
   text-align: center;
@@ -171,10 +171,14 @@ ul{
 #blogpages
 img{ width: 3%;
 }
-p{  text-align: right;
-  padding-right: 8%;
+p{  text-align: justify;
+  padding: 4%;
   margin-top: 2% ;
 }
+.share img{
+  width: 25%;
+}
+
 
 /*community page below*/
 .social {
@@ -211,4 +215,13 @@ p{  text-align: right;
 .kickstarter img{
   width: 2rem;
   grid-area: d;
+  }
+
+
+  @media screen and (min-width:600px){
+    .content {
+      width: 80%;
+      margin: 0 auto;
+
+    }
   }
