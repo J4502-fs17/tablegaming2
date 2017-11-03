@@ -138,8 +138,10 @@ p{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-.button a:link, a:visited{
-  color:white;
+.button a:link,
+
+.button a:visited{
+  color:#white;
 }
 .video{
   display: block;
