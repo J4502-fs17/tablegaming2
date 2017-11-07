@@ -1,3 +1,5 @@
+/*Everything until the media screen is for mobile*/
+
 html{
   height: 100%;
   width: 100%;
@@ -184,11 +186,12 @@ p{  text-align: justify;
 .social {
   justify-content: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   grid-gap: 5%;
   grid-template-areas:
-  "a b c"
-  "d e f";
+  "a a ."
+  "b c d"
+  "e f g";
 }
 .quiz {
   width: 70%;
@@ -196,39 +199,76 @@ p{  text-align: justify;
 
 
 .qp_all1935093 {
-  
-}
 
+}
+.post {
+  min-width: 100px;
+  grid-area: a;
+}
 .facebook img{
   width: 2rem;
-  grid-area: a;
+  grid-area: b;
 }
  .instagram img{
   width: 2rem;
-  grid-area: b;
+  grid-area: c;
    }
  .twitter img{
    width: 2rem;
-   grid-area: c;
+   grid-area: d;
    }
 .tabletopia img{
     width: 2rem;
-    grid-area: f;
+    grid-area: g;
   }
 .bgg img{
     width: 2rem;
-    grid-area: e;
+    grid-area: f;
   }
 .kickstarter img{
   width: 2rem;
-  grid-area: d;
+  grid-area: e;
   }
 
-
+/*Below this is for desktop screens */
   @media screen and (min-width:600px){
     .content {
       width: 80%;
       margin: 0 auto;
-
     }
+    .social {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: auto 1fr 1fr 1fr;
+      grid-gap: 5%;
+      grid-template-areas:
+      "a b c d"
+      "a e f g";
+    }
+    .post {
+      min-width: 250px;
   }
+   .mediagrid {
+     display: grid;
+     justify-content: center;
+     grid-template-columns: 1fr .5fr 1fr;
+     grid-gap: 5%;
+     grid-template-areas:
+     "a b c"
+}
+
+    #watchgrid{
+      grid-area: a;
+      padding-left: 10%;
+    }
+    #youtubegrid {
+      grid-area: b;
+      padding-top: 25%;
+    }
+    #youtubegrid img {
+      max-width: 150px;
+    }
+    #podcastgrid {
+      grid-area: c;
+    }
+   }
