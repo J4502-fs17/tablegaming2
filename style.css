@@ -232,7 +232,7 @@ p{  text-align: justify;
 
 /*Below this is for desktop screens */
   @media screen and (min-width:600px){
-    .content {
+    .html {
       width: 80%;
       margin: 0 auto;
     }
