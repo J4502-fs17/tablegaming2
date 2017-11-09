@@ -99,7 +99,7 @@ ul{
     border-style: none;
   }
 
-.content {
+.content, .contest, .poll, .quizz {
     position: relative;
     word-wrap: normal;
     padding: 30px;
@@ -275,7 +275,7 @@ p{  text-align: justify;
       justify-content: center;
       display: grid;
       grid-template-columns: auto 1fr 1fr 1fr;
-      grid-gap: 5%;
+      grid-gap: 3%;
       grid-template-areas:
       "a b c d"
       "a e f g";
@@ -330,5 +330,23 @@ p{  text-align: justify;
 .forums {
   grid-area:b;}
 
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a b c";}
+.quizz{
+  grid-area: a;}
+.poll {
+  grid-area: b;}
+.contest {
+  grid-area: c;}
+}
+}
+}
+
+
+}
 
    }
