@@ -256,8 +256,17 @@ p{  text-align: justify;
   grid-area: e;
   }
 
+.character img{
+  width: 50%;
+  margin-left: 25%;
+}
+
+#forum img {
+  display: none;
+}
+
 /*Below this is for desktop screens */
-  @media screen and (min-width:600px){
+  @media screen and (min-width:800px){
     .html {
       width: 80%;
       margin: 0 auto;
@@ -277,10 +286,10 @@ p{  text-align: justify;
    .mediagrid {
      display: grid;
      justify-content: center;
-     grid-template-columns: 1fr .5fr 1fr;
+     grid-template-columns: 1.5fr .5fr 1fr;
      grid-gap: 5%;
      grid-template-areas:
-     "a b c"
+     "a b c";
 }
 
     #watchgrid{
@@ -297,4 +306,29 @@ p{  text-align: justify;
     #podcastgrid {
       grid-area: c;
     }
+.character img{
+  max-width: 200px;}
+
+  #youtubevideo{
+    width:100%;
+
+
+    /*min-width: 200px;
+    560;
+    height:315;*/}
+  #youtubepic{
+    width: auto;
+  }
+.share{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a b";}
+.sessions{
+  grid-area: a;}
+.forums {
+  grid-area:b;}
+
+
    }
