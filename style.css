@@ -194,12 +194,38 @@ p{  text-align: justify;
   "e f g";
 }
 .quiz {
-  width: 70%;
+  width: 100%;
+}
+.mediagrid{
+ width: 100%;
+}
+
+#youtubegrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a a"
+  "b c";
+}
+#youtubevideo{
+  width:100%;
+  min-width: 200px;
+  grid-area: a;
+  /*560;
+  height:315;*/}
+#youtubepic{
+  width: 100%;
+  grid-area: b;
+}
+
+#podcastgrid audio{
+  width: 100%;
 }
 
 
 .qp_all1935093 {
-
+  width: 100%;
 }
 .post {
   min-width: 100px;
