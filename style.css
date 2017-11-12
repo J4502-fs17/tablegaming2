@@ -26,13 +26,13 @@ h1 {
   text-align: center;
   font-weight: bolder;
   color: #339999; /* can't use color 228587 because it isn't web safe*/
-  font-size: 32pt;
+  font-size: 1.5em;
 }
 
 h2 {
   font-weight: bold;
   color: #339999;
-  font-size: 20pt;
+  font-size: 1.25em;
 }
 
 h3{
@@ -40,15 +40,16 @@ h3{
   }
 
 p{
-  font-size: 160%;
+  text-align: left;
+  font-size: 1em;
   color: #292f30;
-  line-height: 30.4px;
+  line-height: 1.25em;
   }
 
 
 #heading{
   width:100%;
-  height: 320px;
+  height: 280px; /*320*/
   margin: 0;
   padding: 0;
   }
@@ -60,10 +61,10 @@ p{
   margin: 25px 0 0 15px;
   }
 #nav li{
-  font-size: 200%;
+  font-size: 1.25em; /*200% */
   color: #292f30;
   text-decoration: none;}
-#nav a:visited, a:link{
+#nav a:visited, #nav a:link{
   color: #292f30;
   text-decoration: none;}
 #nav a:active{
@@ -71,21 +72,28 @@ p{
   font-weight: bold;
 }
 
-#link a:visited, a:link{
+#link a:visited, #link a:link{
   color: #339999
 }
 
-#link a:active, a:link{
+#link a:active, #link a:link{
   color: #339999
+}
+ul{
+  list-style: none;
+}
+.shopimages img{
+  float: center;
 }
 
 .logo img{
     float: center;
     display: block;
-    width: 250px;
+    width: 200px; /*250*/
     /*left: 336px;*/
-    margin: auto;
-    padding: 3%;
+    margin: auto;/*
+    padding: 3%;*/
+    padding-top: 10%;
     border-style: none;
   }
 
@@ -103,6 +111,12 @@ p{
     opacity: 100;
     border-radius: 30px;}
 
+.homepic img{
+  margin-left: 20%;
+  width: 60%;
+  padding-top: 3%;
+}
+
 .fixpixel img{
   position: relative;
   border-style: none;
@@ -113,7 +127,7 @@ p{
   z-index: -1;
      }
 
-.sidebyside {
+.sidebyside {  /*a classmate suggested we make these links look like the buttons on the games page to distinguish them as links*/
   margin: auto;
   padding: auto;
   text-align: center;
@@ -138,10 +152,15 @@ p{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 .button a:link,
 
 .button a:visited{
   color:#white;
+=======
+.button a:link, .button a:visited {
+  color:white;
+>>>>>>> origin/master
 }
 .video{
   display: block;
@@ -152,12 +171,64 @@ p{
 }
 
 .backtotop img {
-  padding-left: 80%;
-  height: 110px;
+  padding-left: 70%; /*80%*/
+  height: 70px; /*110px*/
 }
 
-#blogpages p{
-  text-align: right;
-  padding-right: 8%;
+#blogpages
+img{ width: 3%;
+}
+p{  text-align: justify;
+  padding: 4%;
   margin-top: 2% ;
 }
+.share img{
+  width: 25%;
+}
+
+
+/*community page below*/
+.social {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a b c"
+  "d e f";
+}
+
+
+.facebook img{
+  width: 2rem;
+  grid-area: a;
+}
+ .instagram img{
+  width: 2rem;
+  grid-area: b;
+   }
+ .twitter img{
+   width: 2rem;
+   grid-area: c;
+   }
+.tabletopia img{
+    width: 2rem;
+    grid-area: f;
+  }
+.bgg img{
+    width: 2rem;
+    grid-area: e;
+  }
+.kickstarter img{
+  width: 2rem;
+  grid-area: d;
+  }
+
+
+  @media screen and (min-width:600px){
+    .content {
+      width: 80%;
+      margin: 0 auto;
+
+    }
+  }
