@@ -27,11 +27,13 @@ h1,h2,h3,h4,p,li {
 h1 {
   text-align: center;
   font-weight: bolder;
+  padding-top: 10%;
   color: #339999; /* can't use color 228587 because it isn't web safe*/
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h2 {
+  text-align: center;
   font-weight: bold;
   color: #339999;
   font-size: 1.25em;
@@ -269,6 +271,41 @@ p{  text-align: justify;
   display: none;
 }
 
+.shopimages {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5%;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+  }
+#wind {
+  grid-area: a;
+}
+ #seals {
+   grid-area: b;
+ }
+#alter{
+  grid-area: c;
+}
+
+#shopgames img{
+  width: 50%;
+  max-height: 350px;
+  min-height: 150px;
+  min-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 /*Below this is for desktop screens */
   @media screen and (min-width:800px){
     .html {
@@ -283,6 +320,15 @@ p{  text-align: justify;
     header{
         background-color: transparent;
       }
+
+    .shopimages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5%;
+        grid-template-areas:
+        "a b c";
+}
+
 
     .social {
       justify-content: center;
