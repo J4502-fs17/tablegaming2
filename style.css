@@ -153,15 +153,12 @@ ul{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-<<<<<<< HEAD
 .button a:link,
 
 .button a:visited{
-  color:#white;
-=======
+  color:white;}
 .button a:link, .button a:visited {
   color:white;
->>>>>>> origin/master
 }
 .video{
   display: block;
@@ -348,11 +345,6 @@ p{  text-align: justify;
   grid-area: b;}
 .contest {
   grid-area: c;}
-}
-}
-}
 
-
-}
 
    }
