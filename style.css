@@ -274,6 +274,15 @@ p{  text-align: justify;
       width: 80%;
       margin: 0 auto;
     }
+    body{
+      background-image: url("images/background.png");
+      background-repeat: repeat-x;
+      background-size: 1920px 4812px;
+      margin: 0;}
+    header{
+        background-color: transparent;
+      }
+
     .social {
       justify-content: center;
       display: grid;
