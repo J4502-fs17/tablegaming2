@@ -150,8 +150,6 @@ ul{
   margin:20px;
   border-radius:10px;
   padding: 15px 32px;
-
-
   text-align: center;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
@@ -234,8 +232,19 @@ p{  text-align: justify;
 .qp_all1935093 {
   width: 100%;
 }
-.post {
-  min-width: 100px;
+.social {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3%;
+  grid-template-areas:
+  "a a"
+  "b c"
+  "d e"
+  "f g";}
+.post img{
+  float: left;
+  min-width: 200px;
   grid-area: a;
 }
 .facebook img{
