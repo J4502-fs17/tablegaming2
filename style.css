@@ -201,6 +201,7 @@ p{  text-align: justify;
 }
 .quiz {
   width: 100%;
+  min-width: 150px;
 }
 .mediagrid{
  width: 100%;
@@ -297,10 +298,21 @@ p{  text-align: justify;
   min-width: 200px;
 }
 
+.forums img{
+  height: 400px;
+  width: auto;
+}
 
-
-
-
+#session{
+  border: 2px solid;
+}
+#session p{
+  font-size: .8rem;
+}
+#session img{
+  float: left;
+  width: 20%;
+}
 
 
 
@@ -370,8 +382,6 @@ p{  text-align: justify;
 
   #youtubevideo{
     width:100%;
-
-
     /*min-width: 200px;
     560;
     height:315;*/}
@@ -392,7 +402,7 @@ p{  text-align: justify;
 .bottom{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5%;
+  grid-gap: 0%;
   grid-template-areas:
   "a b c";}
 .quizz{
@@ -402,5 +412,9 @@ p{  text-align: justify;
 .contest {
   grid-area: c;}
 
+.forums img{
+  height: 400px;
+  width: auto;
+}
 
    }
