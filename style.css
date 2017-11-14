@@ -200,11 +200,7 @@ p{  text-align: justify;
   padding: 1.5%;
   margin-top: 2% ;
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> origin/master
 .share img{
   width: 25%;
 }
@@ -221,6 +217,12 @@ p{  text-align: justify;
   "b c d"
   "e f g";
 }*/
+#story {
+  width: 75%;
+}
+#form {
+  text-align: left;
+}
 .quiz {
   width: 100%;
   min-width: 150px;
