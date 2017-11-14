@@ -37,11 +37,8 @@ h1,h2,h3,h4,p,li {
 h1 {
   text-align: center;
   font-weight: bolder;
-<<<<<<< HEAD
-    padding-top:inherit;
-=======
+  padding-top:inherit;
   padding-top: 0%;
->>>>>>> origin/master
   color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 2em;
 }
