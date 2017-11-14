@@ -92,7 +92,7 @@ ul{
 .logo img{
     float: center;
     display: block;
-    width: 200px; /*250*/
+    width: 225px; /*250*/
     /*left: 336px;*/
     margin: auto;/*
     padding: 3%;*/
@@ -207,6 +207,7 @@ p{  text-align: justify;
 .quiz {
   width: 100%;
   min-width: 150px;
+  max-width: 300px;
 }
 .mediagrid{
  width: 100%;
@@ -240,15 +241,14 @@ p{  text-align: justify;
   width: 100%;
 }
 .social {
-  justify-content: center;
+
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 3%;
   grid-template-areas:
-  "a a"
-  "b c"
-  "d e"
-  "f g";}
+  "a a a"
+  "b c d"
+  "e f g";}
 
 
   .social img{
@@ -262,7 +262,7 @@ p{  text-align: justify;
   }
 
   .post img{
-    min-width:200px;
+    min-width:300px;
   }
 
 .facebook {
@@ -297,9 +297,8 @@ p{  text-align: justify;
   width: 50%;
   margin-left: 25%;
 }
-
-#forum img {
-  display: none;
+.links{
+  padding: 0;
 }
 
 .shopimages {
@@ -382,7 +381,9 @@ p{  text-align: justify;
       "a e f g";
     }
     .post {
-      min-width: 250px;
+      width: 100%;
+
+      min-width: 300px;
   }
    .mediagrid {
      display: grid;
@@ -448,3 +449,31 @@ p{  text-align: justify;
 }
 
    }
+
+@media screen and (max-width:500px){
+   .logo img{
+       float: center;
+       display: block;
+       width: 150px; /*250*/
+       /*left: 336px;*/
+       margin: auto;/*
+       padding: 3%;*/
+       padding-top: 10%;
+       border-style: none;
+     }
+     .social {
+
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-gap: 3%;
+       grid-template-areas:
+       "a a"
+       "b c"
+       "d e"
+       "f g";}
+.post img{
+  display:none;}
+.forums img{
+  display:none;}
+}
+     }
