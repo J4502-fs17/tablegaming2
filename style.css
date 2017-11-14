@@ -17,9 +17,19 @@ body{
   margin: 0;
   commenting this out because we dont have correct bg image and mobile is simplified */
   background-color: #f2f0dd;
+	margin:0;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 a{text-decoration: none;}
+
+header{
+  	background-color: #5ac3bf;
+  	text-align: center;
+}
+
+
+
 h1,h2,h3,h4,p,li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
@@ -27,7 +37,11 @@ h1,h2,h3,h4,p,li {
 h1 {
   text-align: center;
   font-weight: bolder;
+<<<<<<< HEAD
     padding-top:inherit;
+=======
+  padding-top: 0%;
+>>>>>>> origin/master
   color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 2em;
 }
@@ -44,6 +58,7 @@ h3{
   }
 
 p{
+  padding-bottom: 0%;
   text-align: left;
   font-size: 1em;
   color: #292f30;
@@ -188,8 +203,11 @@ p{  text-align: justify;
   padding: 0%;
   margin-top: 2% ;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 .share img{
   width: 25%;
 }
@@ -336,6 +354,7 @@ p{  text-align: justify;
 
 #session{
   border: 2px solid #339999;
+  padding: 5px;
 }
 #session p{
   font-size: .8rem;
@@ -343,6 +362,8 @@ p{  text-align: justify;
 #session img{
   float: left;
   width: 20%;
+  min-width: 100px;
+  margin-bottom: 5px;
 }
 
 
@@ -458,6 +479,109 @@ p{  text-align: justify;
 }
 
    }
+
+   a.menu-trigger{
+   	display: none;
+   }
+   div.logo{
+   	display: inline-block;
+   	height: auto;
+   	vertical-align: middle;
+   }
+   div.logo a{
+   	display: inline-block;
+   	margin:70px 0;
+   }
+   .logo img{
+       display: inline-block;
+       width: 200px;
+       margin: auto;
+       border-style: none;
+   }
+   ul#nav1,ul#nav2{
+   	list-style: none;
+   	display: inline-block;
+   	vertical-align:middle;
+   	padding:0;
+   	margin:0;
+   	width: 40%;
+   }
+   ul#nav{
+   	display: none;
+   	position:relative;
+   	top:40px;
+   	z-index: 1;
+   	padding: 0;
+   	margin:0;
+     	background-color: #98bf21;
+     	width: 100%;
+   }
+   ul#nav a:link, ul#nav a:visited {
+       color: #1485CC;
+       background-color: #98bf21;
+       font-weight: bold;
+       text-align:center;
+       text-decoration: none;
+       font-family: Helvetica, Arial, sans-serif;
+   }
+   ul#nav a:hover, ul#nav a:active {
+       background-color: #7a991a;
+   }
+
+   ul#nav li{
+   	border-bottom: 1px solid #ccc;
+   	padding:10px;
+   	font-size: 1em;
+   }
+   ul li{
+   	display: inline-block;
+   	margin-left: 10%;
+   	margin-right: 10%;
+   	font-size: 1.25em;
+   }
+   ul li a{
+   	color: #292f30;
+   }
+   ul#nav1{
+   	text-align: right;
+   }
+   ul#nav2{
+   	text-align: left;
+   }
+   ul a:active{
+     font-weight: bold;
+   }
+   @media(max-width: 1068px){
+   	ul#nav1, ul#nav2{
+   		width: 30%;
+   	}
+   	ul li{
+   		margin-left: 2%;
+   		margin-right: 2%;
+   	}
+   }
+   @media(max-width: 710px){
+   	ul#nav1, ul#nav2{
+   		display: none;
+   	}
+   /*	ul#nav{
+   		display: block;
+   	}*/
+   	ul li{
+   		display: block;
+   		margin:0;
+   	}
+   	a.menu-trigger{
+   		display: block;
+   		position: absolute;
+   		top: 10px;
+   		left: 10px;
+   		z-index: 2;
+   	}
+   }
+
+
+
 
 @media screen and (max-width:500px){
    .logo img{
