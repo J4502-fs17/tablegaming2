@@ -27,10 +27,7 @@ h1,h2,h3,h4,p,li {
 h1 {
   text-align: center;
   font-weight: bolder;
-<<<<<<< Updated upstream
-=======
   padding-top: 0%;
->>>>>>> Stashed changes
   color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 2em;
 }
@@ -191,12 +188,6 @@ p{  text-align: justify;
   padding: 4%;
   margin-top: 2% ;
 }
-
-#aboutpages
-h1{
-  padding: 0%;
-}
-
 .share img{
   width: 25%;
 }
@@ -343,6 +334,7 @@ h1{
 
 #session{
   border: 2px solid #339999;
+  padding: 5px;
 }
 #session p{
   font-size: .8rem;
@@ -350,6 +342,8 @@ h1{
 #session img{
   float: left;
   width: 20%;
+  min-width: 100px;
+  margin-bottom: 5px;
 }
 
 
