@@ -27,6 +27,7 @@ h1,h2,h3,h4,p,li {
 h1 {
   text-align: center;
   font-weight: bolder;
+    padding-top:inherit;
   color: #339999; /* can't use color 228587 because it isn't web safe*/
   font-size: 2em;
 }
@@ -184,14 +185,10 @@ ul{
 img{ width: 3%;
 }
 p{  text-align: justify;
-  padding: 4%;
+  padding: 0%;
   margin-top: 2% ;
 }
 
-#aboutpages
-h1{
-  padding: 0%;
-}
 
 .share img{
   width: 25%;
