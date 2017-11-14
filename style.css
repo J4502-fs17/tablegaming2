@@ -333,7 +333,7 @@ p{  text-align: justify;
 }
 
 #session{
-  border: 2px solid;
+  border: 2px solid #339999;
 }
 #session p{
   font-size: .8rem;
@@ -342,7 +342,6 @@ p{  text-align: justify;
   float: left;
   width: 20%;
 }
-
 
 
 
@@ -428,7 +427,7 @@ p{  text-align: justify;
 .sessions{
   grid-area: a;}
 .forums {
-  grid-area:b;}
+  grid-area: b;}
 
 .bottom{
   display: grid;
