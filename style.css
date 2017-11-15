@@ -119,7 +119,7 @@ ul{
   justify-content: center;
 }
 
-.content, .contest, .poll, .quizz {
+.content1,.content2, .contest, .poll, .quizz {
     position: relative;
     word-wrap: normal;
     padding: 30px;
@@ -193,12 +193,17 @@ ul{
   height: 70px; /*110px*/
 }
 
-#blogpages
-img{ width: 3%;
+#blogpages img{
+  width: 3%;
 }
-p{  text-align: justify;
+
+#blogpages p{
   padding: 1.5%;
   margin-top: 2% ;
+}
+
+#blogpages {
+  text-align: right;
 }
 
 .share img{
@@ -371,7 +376,24 @@ p{  text-align: justify;
 
 /*Below this is for desktop screens */
   @media screen and (min-width:800px){
-.content {
+    #picfirst{
+      position: center;
+      max-width: 100%;
+    }
+    #picsecond{
+      position: center;
+      max-width: 100%;
+    }
+    .made,.wocao {
+  text-align: center;
+   display: grid;
+   grid-template-columns: 200px 1fr 1fr 1fr;
+   grid-gap: 5px;
+   grid-template-areas:
+       "a b"
+       ". b"
+     }
+.content1,.content2 {
   margin-right: 7em;
   margin-left: 7em;
 }
@@ -552,6 +574,7 @@ p{  text-align: justify;
      font-weight: bold;
    }
    @media(max-width: 1000px){
+
    	ul#nav1, ul#nav2{
    		width: 30%;
    	}
@@ -610,3 +633,16 @@ p{  text-align: justify;
   display:none;}
 }
      }
+
+#picfirst{
+  margin-left: 20%;
+  width: 60%;
+  padding-top: 3%;
+
+}
+
+#picsecond img{
+  margin-left: 20%;
+  width: 60%;
+  padding-top: 3%;
+}
