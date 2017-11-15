@@ -64,7 +64,7 @@ body {
   	width: 100%;
 }
  ul#nav a:link, ul#nav a:visited {
-    color: #1485CC;
+    color: #339999;
     background-color: #f2f0dd;
     font-weight: bold;
     text-align:center;
@@ -175,7 +175,6 @@ body {
  div.fixpixel{
 	padding:0;
 	margin:0;
-	display: none;
 }
  div.fixpixel img{
 	width: 100%;
