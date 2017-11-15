@@ -410,7 +410,7 @@ div.order{
  margin-left:4%;
 }
 div.order a.button{
- width: 100%;
+ width: 60%;
  background-color: #339999;
    display: inline-block;
    color:white;
@@ -419,6 +419,7 @@ div.order a.button{
    padding-bottom: 15px;
    text-align: center;
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   margin:0 auto;
 }
 p.packs_p{
  width: 94%;
