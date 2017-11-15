@@ -71,7 +71,6 @@ p{
 
 #nav{
   list-style-type: none;
-  max-width: 200px;
   /*position: absolute;*/
   margin: 25px 0 0 15px;
   }
@@ -597,19 +596,19 @@ div.fixpixel img{
    	z-index: 1;
    	padding: 0;
    	margin:0;
-     	background-color: #98bf21;
+     	background-color: #f7faf1;
      	width: 100%;
    }
    ul#nav a:link, ul#nav a:visited {
-       color: #1485CC;
-       background-color: #98bf21;
+       color: #339999;
+       background-color: #f7faf1;
        font-weight: bold;
        text-align:center;
        text-decoration: none;
        font-family: Helvetica, Arial, sans-serif;
    }
    ul#nav a:hover, ul#nav a:active {
-       background-color: #7a991a;
+       background-color: #f7faf1;
    }
 
    ul#nav li{
