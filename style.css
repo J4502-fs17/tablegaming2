@@ -118,7 +118,7 @@ ul{
   justify-content: center;
 }
 
-.content1,.content2, .contest, .poll, .quiz {
+.content1,.content2, .contest, .poll, .quizz {
     position: relative;
     word-wrap: normal;
     padding: 10px 60px 10px 60px;
@@ -242,7 +242,7 @@ ul{
   text-align: left;
 }
 
-.quiz {
+.quizz {
   width: 100%;
   min-width: 150px;
   max-width: 300px;
@@ -586,7 +586,7 @@ div.fixpixel img{
   grid-gap: 0%;
   grid-template-areas:
   "a b c";}
-.quiz{
+.quizz{
   grid-area: a;}
 .poll {
   grid-area: b;}
