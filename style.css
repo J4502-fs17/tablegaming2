@@ -783,4 +783,7 @@ div.fixpixel img{
        margin: 0;
        line-space: 1.5em;
      }
+     .made > div:first-child, .wocao > div:first-child {
+     text-align: center;
+   }
 >>>>>>> origin/master
