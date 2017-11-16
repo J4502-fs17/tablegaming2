@@ -118,7 +118,7 @@ ul{
   justify-content: center;
 }
 
-.content1,.content2, .contest, .poll, .quizz {
+.content1,.content2, .contest, .poll, .quizz, .content {
     position: relative;
     word-wrap: normal;
     padding: 10px 60px 10px 60px;
@@ -491,7 +491,7 @@ div.fixpixel img{
        "a b"
        ". b"
      }
-.content1,.content2 {
+.content1,.content2, .content {
   margin-right: 7em;
   margin-left: 7em;
 }
