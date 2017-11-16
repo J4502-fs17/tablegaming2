@@ -118,7 +118,7 @@ ul{
   justify-content: center;
 }
 
-.content1,.content2, .contest, .poll, .quizz {
+.content1,.content2, .contest, .poll, .quiz {
     position: relative;
     word-wrap: normal;
     padding: 10px 60px 10px 60px;
@@ -166,12 +166,10 @@ ul{
 
 .sidebyside div.1{
   order: 1;
-
 }
 
 .sidebyside div.2{
   order: 2;
-
 }
 
 .share img{
@@ -588,7 +586,7 @@ div.fixpixel img{
   grid-gap: 0%;
   grid-template-areas:
   "a b c";}
-.quizz{
+.quiz{
   grid-area: a;}
 .poll {
   grid-area: b;}
