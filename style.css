@@ -471,7 +471,7 @@ div.fixpixel img{
     .made,.wocao {
   text-align: center;
    display: grid;
-   grid-template-columns: 200px 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
    grid-gap: 5px;
    grid-template-areas:
        "a b"
@@ -726,6 +726,7 @@ div.fixpixel img{
 
 }
 
+
 #picsecond img{
   margin-left: 20%;
   width: 60%;
@@ -777,5 +778,9 @@ div.fixpixel img{
      		margin-top: 2%;
      		margin-bottom: 2%;
      	}
+     }
+  .made p {
+       margin: 0;
+       line-space: 1.5em;
      }
 >>>>>>> origin/master
