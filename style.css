@@ -66,7 +66,7 @@ p{
   width:100%;
   /*height: 280px; /*320*/
   margin: 0;
-  padding-bottom: 10%;
+  padding-bottom: 1%;
   }
 
 #nav{
@@ -107,7 +107,7 @@ ul{
     /*left: 336px;*/
     margin: auto;/*
     padding: 3%;*/
-    padding-top: 10%;
+    padding-top: 1%;
     border-style: none;
   }
 
@@ -121,9 +121,9 @@ ul{
 .content1,.content2, .contest, .poll, .quizz {
     position: relative;
     word-wrap: normal;
-    padding: 20px 60px 20px 60px;
+    padding: 10px 60px 10px 60px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-right: 1.2em;
     margin-left: 1.2em;
     border-style: none;
@@ -133,8 +133,8 @@ ul{
     border-radius: 30px;}
 
 .homepic img{
-  margin-left: 20%;
-  width: 60%;
+  margin: 0 10% 0 10%;
+  width: 80%;
   padding-top: 3%;
 }
 
@@ -148,10 +148,10 @@ ul{
   z-index: -1;
      }
 
-@media (min-width:300px){
+@media (min-width:410px){
 .sidebyside {  /*a classmate suggested we make these links look like the buttons on the games page to distinguish them as links*/
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: space-around;
   padding: .5em;
   margin:auto;
@@ -166,12 +166,12 @@ ul{
 
 .sidebyside div.1{
   order: 1;
-  align-self: auto;
+  align-self:center;
 }
 
 .sidebyside div.2{
   order: 2;
-  align-self: auto;
+  align-self:center;
 }
 
 .share img{
@@ -203,7 +203,8 @@ ul{
 }
 
 .backtotop img {
-  padding-left: 70%; /*80%*/
+  width: 10%;
+  padding-left: 75%; /*80%*/
   height: 70px; /*110px*/
 }
 
