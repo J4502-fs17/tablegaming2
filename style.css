@@ -97,11 +97,11 @@ ul{
   list-style: none;
 }
 .shopimages img{
-  float: center;
+  margin: auto;
 }
 
 .logo img{
-    float: center;
+    margin: auto;
     display: block;
     width: 225px; /*250*/
     /*left: 336px;*/
@@ -166,12 +166,12 @@ ul{
 
 .sidebyside div.1{
   order: 1;
-  align-self:center;
+
 }
 
 .sidebyside div.2{
   order: 2;
-  align-self:center;
+
 }
 
 .share img{
@@ -714,7 +714,7 @@ div.fixpixel img{
 
 @media screen and (max-width:500px){
    .logo img{
-       float: center;
+       margin:auto;
        display: block;
        width: 150px; /*250*/
        /*left: 336px;*/
@@ -724,7 +724,6 @@ div.fixpixel img{
        border-style: none;
      }
      .social {
-
        display: grid;
        grid-template-columns: auto auto;
        grid-gap: 3%;
@@ -733,19 +732,17 @@ div.fixpixel img{
        "b c"
        "d e"
        "f g";}
-.post img{
-  display:none;}
-.forums img{
-  display:none;}
+       .post img{
+         display:none;}
+         .forums img{
+           display:none;}
 }
-     }
 
 <<<<<<< HEAD
 #picfirst{
   margin-left: 20%;
   width: 60%;
   padding-top: 3%;
-
 }
 
 
