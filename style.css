@@ -695,11 +695,17 @@ div.fixpixel img{
    		margin:0;
    	}
    	a.menu-trigger{
-   		display: block;
+      display: block;
+      background:none;
    		position: absolute;
-   		top: 10px;
-   		left: 10px;
-   		z-index: 2;
+   		top: 20px;
+   		left: 35px;
+      color:#292f30;
+      border:0;
+      font-size: 3em;
+      font-weight: bold;
+      outline:none;
+      z-index:2;
    	}
    }
 
