@@ -121,7 +121,7 @@ ul{
 .content1,.content2, .contest, .poll, .quizz {
     position: relative;
     word-wrap: normal;
-    padding: 30px;
+    padding: 20px 60px 20px 60px;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-right: 1.2em;
@@ -148,15 +148,30 @@ ul{
   z-index: -1;
      }
 
+@media (min-width:300px){
 .sidebyside {  /*a classmate suggested we make these links look like the buttons on the games page to distinguish them as links*/
-  margin: auto;
-  padding: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: .5em;
+  margin:auto;
   text-align: center;
-  word-spacing: 150px;
+  max-width: 400px;
+  background-color: #f7faf1;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 10px;
+}
 }
 
-.center{
-  text-align: center;
+.sidebyside div.1{
+  order: 1;
+  align-self: auto;
+}
+
+.sidebyside div.2{
+  order: 2;
+  align-self: auto;
 }
 
 .share img{
