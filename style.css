@@ -355,7 +355,10 @@ ul{
 }
 .links{
   padding: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 
 .shopimages {
@@ -493,6 +496,21 @@ div.fixpixel img{
 
 /*Below this is for desktop screens */
   @media screen and (min-width:800px){
+    .fixpixel img{
+      display: none;}
+    .desktopfooter{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+    }
+    .desktopfooter img{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
     #picfirst{
       position: center;
       max-width: 100%;
@@ -700,7 +718,7 @@ div.fixpixel img{
    		margin-right: 2%;
    	}
    }
-   @media(max-width: 700px){
+   @media(max-width: 800px){
    	ul#nav1, ul#nav2{
    		display: none;
    	}
@@ -724,6 +742,8 @@ div.fixpixel img{
       outline:none;
       z-index:2;
    	}
+    .desktopfooter{
+display: none;}
    }
 
 
@@ -753,7 +773,9 @@ div.fixpixel img{
          display:none;}
          .forums img{
            display:none;}
-}
+           .desktopfooter img{
+    display: none;
+    }}
 
 <<<<<<< HEAD
 #picfirst{
@@ -787,6 +809,8 @@ div.fixpixel img{
      	 div.fixpixel{
      		display: block;
      	}
+
+
      }
 
 
@@ -821,5 +845,10 @@ div.fixpixel img{
      }
      .made > div:first-child, .wocao > div:first-child {
      text-align: center;
-   }
+   }}
 >>>>>>> origin/master
+
+ @media(min-width: 700px){
+   .fixpixel img{
+     display: none;
+   }}
