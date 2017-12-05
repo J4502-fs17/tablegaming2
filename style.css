@@ -337,7 +337,6 @@ ul{
 }
 .links{
   padding: 0;
-  
 }
 
 .shopimages {
@@ -475,6 +474,9 @@ div.fixpixel img{
 
 /*Below this is for desktop screens */
   @media screen and (min-width:800px){
+    .fixpixel img{
+      display: none;}
+
     #picfirst{
       position: center;
       max-width: 100%;
@@ -706,6 +708,8 @@ div.fixpixel img{
       outline:none;
       z-index:2;
    	}
+    .desktopfooter img{
+display: none;}
    }
 
 
@@ -735,7 +739,9 @@ div.fixpixel img{
          display:none;}
          .forums img{
            display:none;}
-}
+           .desktopfooter img{
+    display: none;
+    }}
 
 <<<<<<< HEAD
 #picfirst{
@@ -769,6 +775,8 @@ div.fixpixel img{
      	 div.fixpixel{
      		display: block;
      	}
+
+
      }
 
 
@@ -803,5 +811,10 @@ div.fixpixel img{
      }
      .made > div:first-child, .wocao > div:first-child {
      text-align: center;
-   }
+   }}
 >>>>>>> origin/master
+
+ @media(min-width: 700px){
+   .fixpixel img{
+     display: none;
+   }}
