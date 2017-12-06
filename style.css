@@ -130,7 +130,17 @@ ul{
     background: #f7faf1;
     opacity: 100;
     border-radius: 30px;}
-    
+
+.buttonC{
+  background-color: #339999;
+  color:white;
+  margin:0px;
+  border-radius:5px;
+  padding: 7.5px 16px;
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
 
 .homepic img{
   margin: 0 10% 0 10%;
@@ -396,6 +406,8 @@ ul{
 #session{
   border: 2px solid #339999;
   padding: 5px;
+  margin-top: 15px;
+  margin-bottom: auto;
 }
 #session p{
   font-size: .8rem;
