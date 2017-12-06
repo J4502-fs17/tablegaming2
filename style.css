@@ -272,10 +272,14 @@ ul{
 }
 
 .quizz {
-  width: 100%;
   min-width: 150px;
-  max-width: 300px;
+  max-width: 100%;
 }
+.quiz {
+    width:100%;
+    position:center;
+}
+
 .mediagrid{
  width: 100%;
 }
@@ -362,7 +366,7 @@ ul{
 
 .character img{
   width: 50%;
-  margin-left: 25%;
+  margin-left: 35%;
 }
 .links{
   padding: 0;
@@ -507,8 +511,26 @@ div.fixpixel img{
  vertical-align: top;
 }
 
+.character img{
+  max-width: 175px;
+  position:center;
+}
+
 /*Below this is for desktop screens */
   @media screen and (min-width:800px){
+    .news{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+          "a b";
+    }
+    .news ul{
+      grid-area: a;
+    }
+    .news img{
+      grid-area: b;
+}
     .fixpixel img{
       display: none;}
     .desktopfooter{
@@ -581,8 +603,8 @@ div.fixpixel img{
       "a e f g";
     }
     .post {
+      margin-left: 10px;
       width: 100%;
-
       min-width: 300px;
   }
    .mediagrid {
@@ -609,7 +631,8 @@ div.fixpixel img{
       grid-area: c;
     }
 .character img{
-  max-width: 200px;}
+  max-width: 200px;
+position:center;}
 
   #youtubevideo{
     width:100%;
@@ -630,19 +653,23 @@ div.fixpixel img{
 .forums {
   grid-area: b;}
 
-.bottom{
+/*.bottom{
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0%;
   grid-template-areas:
   "a b c";}
 .quizz{
-  grid-area: a;}
+  grid-area: a;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;}
 .poll {
   grid-area: b;}
 .contest {
   grid-area: c;}
-
+*/
 .forums img{
   height: 400px;
   width: auto;
@@ -758,10 +785,34 @@ div.fixpixel img{
     .desktopfooter{
 display: none;}
    }
-
-
-
-
+@media screen and (min-width:850px){
+  .bottom{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0%;
+    grid-template-areas:
+    "a b"
+    "c c";}
+  .quizz{
+    grid-area: a;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;}
+  .poll {
+    grid-area: b;}
+  .contest {
+    grid-area: c;}
+}
+@media screen and (min-width:1100px){
+  .bottom{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0%;
+    grid-template-areas:
+    "a b c";}
+}
 @media screen and (max-width:500px){
    .logo img{
        margin:auto;
