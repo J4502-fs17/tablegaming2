@@ -204,8 +204,28 @@
 	    document.documentElement.scrollTop = 0;
 	}
 	</script>
+<script>
+	var iframe = document.getElementById('youtubevideo');
+	var width = window.innerWidth;
+	var height = window.innerHeight;
+	if(width > 1300){
+		iframe.height = width/5;
+	}
+	else if(width > 800){
+		iframe.height = width/5;
+	}
+	else iframe.height = width/2;
 
-
+	window.addEventListener("resize", onWindowResize);
+	function onWindowResize(){
+		width = window.innerWidth;
+		if(width > 1300 && width < 1600){
+			iframe.height = width/5.2;
+		}
+		else if(width > 800) iframe.height = width/5.2;
+		else iframe.height = width/2;
+	}
+</script>
 
 </body>
 </html>
