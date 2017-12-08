@@ -409,9 +409,21 @@ ul{
 
 #session{
   border: 2px solid #339999;
+<<<<<<< Updated upstream
   padding: 5px;
   margin-top: 15px;
   margin-bottom: auto;
+=======
+  border-bottom:
+  padding: 20px;
+}
+#session{
+    box-sizing: content-box;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 2px solid #339999;
+>>>>>>> Stashed changes
 }
 #session p{
   font-size: .8rem;
