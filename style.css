@@ -1,5 +1,11 @@
 /*Everything until the media screen is for mobile*/
 
+.content1{
+  position:relative;
+}
+.centent{
+  position:relative;
+}
 html{
   height: 100%;
   width: 100%;
@@ -8,6 +14,7 @@ html{
 
 header{
   background-color: #5ac3bf;
+  position:relative
 }
 
 body{
@@ -660,11 +667,13 @@ position:center;}
   grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
   grid-template-areas:
-  "a b";}
+  "a b c";}
 .sessions{
   grid-area: a;}
 .forums {
   grid-area: b;}
+.session{
+  grid-area: c;}
 
 /*.bottom{
   width: 90%;
