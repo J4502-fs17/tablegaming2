@@ -209,7 +209,7 @@ ul{
 }
 
 .share img{
-  max-width: 120px;
+  width: 150px;
 }
 .button{
   background-color: #339999;
@@ -255,9 +255,9 @@ ul{
   text-align: right;
 }
 
-/*.share img{
+.share img{
   width: 25%;
-}/*
+}
 
 
 /*community page below*/
